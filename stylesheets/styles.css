@@ -150,14 +150,14 @@ html {
   }
 
   #super_heroes li:nth-child(1) {
-    background-image: url('../finn.png');
+    background-image: url('../images/finn.png');
   }
 
   #super_heroes li:nth-child(2) {
-    background-image: url('http://www.nerdlocker.com/wp-content/uploads/2013/10/AdventureTimeJakeTheDad_featured.jpg');
+    background-image: url('../images/jake.jpg');
   }
 
   #super_heroes li:nth-child(3) {
-    background-image: url('http://fc05.deviantart.net/fs71/f/2013/213/9/9/rainbow_afro_bmo__gif__by_jauntyeyes-d6g8y33.jpg');
+    background-image: url('../images/bmo.jpg');
   }
 }

@@ -8,7 +8,6 @@ html {
 }
 
 #container {
-  /*background-color: red;*/
   display: block;
   margin: auto;
   margin-left: 15px;
@@ -25,10 +24,6 @@ html {
     background-color: maroon;
   }
 
-  #hero, #super_heroes {
-    /*max-width: 500px;*/
-  }
-
   #hero {
     max-width: 496px;
     /*account for border*/
@@ -36,10 +31,6 @@ html {
     background-color: rgb(252, 246, 237);
     border: solid 2px rgb(219, 98, 98);
     display: block;
-/*    position: absolute;
-    left: 15px;
-    right: 15px;*/
-    /*width: 610px;*/
   }
 
   #super_heroes {
@@ -49,10 +40,6 @@ html {
   #super_heroes li {
     height: 40px;
     display: block;
-/*    position: relative;
-    left: 15px;
-    right: 15px;*/
-    /*width: 580px;*/
     margin-bottom: 15px;
     background-color: rgb(240, 221, 191);
     border: solid 2px rgb(96, 11, 11);
@@ -94,7 +81,6 @@ html {
     margin-bottom: 20px;
     background-size: cover;
     background-position: center;
-    /*background-color: blue;*/
   }
 
   #super_heroes li:nth-child(1) {

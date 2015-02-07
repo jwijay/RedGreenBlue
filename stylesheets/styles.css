@@ -98,15 +98,15 @@ html {
   }
 
   #super_heroes li:nth-child(1) {
-    background-image: url('../images/finn.png');
+    background-image: url('/images/finn.png');
   }
 
   #super_heroes li:nth-child(2) {
-    background-image: url('../images/jake.jpg');
+    background-image: url('/images/jake.jpg');
   }
 
   #super_heroes li:nth-child(3) {
-    background-image: url('../images/bmo.jpg');
+    background-image: url('/images/bmo.jpg');
   }
 }
 
@@ -150,14 +150,14 @@ html {
   }
 
   #super_heroes li:nth-child(1) {
-    background-image: url('../images/finn.png');
+    background-image: url('/images/finn.png');
   }
 
   #super_heroes li:nth-child(2) {
-    background-image: url('../images/jake.jpg');
+    background-image: url('/images/jake.jpg');
   }
 
   #super_heroes li:nth-child(3) {
-    background-image: url('../images/bmo.jpg');
+    background-image: url('/images/bmo.jpg');
   }
 }

@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+
+html {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: rgb(70,70,70);
+}
+
+#container {
+  /*background-color: red;*/
+  display: block;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px; 
+}
+
+/* small-only */
+@media only screen and (max-width: 40em) {
+  h1 {
+    font-size: 2.8em;
+  }
+  body {
+    font-size: 2em;
+    background-color: maroon;
+  }
+
+  #hero, #super_heroes {
+    /*max-width: 500px;*/
+  }
+
+  #hero {
+    max-width: 496px;
+    /*account for border*/
+    height: 300px;
+    background-color: rgb(252, 246, 237);
+    border: solid 2px rgb(219, 98, 98);
+    display: block;
+/*    position: absolute;
+    left: 15px;
+    right: 15px;*/
+    /*width: 610px;*/
+  }
+
+  #super_heroes {
+    max-width: 500px;
+  }
+
+  #super_heroes li {
+    height: 40px;
+    display: block;
+/*    position: relative;
+    left: 15px;
+    right: 15px;*/
+    /*width: 580px;*/
+    margin-bottom: 15px;
+    background-color: rgb(240, 221, 191);
+    border: solid 2px rgb(96, 11, 11);
+    padding: 15px;
+  }
+}
+
+/*medium-only*/
+@media only screen and (min-width: 40.063em) and (max-width: 60em) {
+  h1 {
+    font-size: 1.4em;
+  }
+
+  body {
+    font-size: 4em;
+    background-color: rgb(193, 236, 192);
+  }
+
+  #hero, #super_heroes {
+    background-color: rgb(246, 252, 255);
+    border: solid 3px rgb(206, 238, 255);
+    max-width: 500px;
+  }
+
+  #hero {
+    height: 194px;
+    /*also need to account for border*/
+    width: inherit;
+  }
+
+  #super_heroes {
+    height: auto;
+    width: inherit;
+    margin-top: 20px;
+  }
+
+  #super_heroes li {
+    height: 300px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    /*background-color: blue;*/
+  }
+
+  #super_heroes li:nth-child(1) {
+    background-image: url('../finn.png');
+  }
+
+  #super_heroes li:nth-child(2) {
+    background-image: url('http://www.nerdlocker.com/wp-content/uploads/2013/10/AdventureTimeJakeTheDad_featured.jpg');
+  }
+
+  #super_heroes li:nth-child(3) {
+    background-image: url('http://fc05.deviantart.net/fs71/f/2013/213/9/9/rainbow_afro_bmo__gif__by_jauntyeyes-d6g8y33.jpg');
+  }
+}
+
+/*large-only*/
+@media only screen and (min-width: 60.063em) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  body {
+    background-color: rgb(213, 255, 250);
+    font-size: 4em;
+  }
+
+  #container {
+    max-width: 500px;
+    background-color: rgb(138, 226, 216);
+    border: solid 3px rgb(27, 166, 150);
+  }
+
+  #hero, #super_heroes {
+    background-color: rgb(232, 255, 239);
+    max-width: 460px;
+  }
+
+  #hero {
+    height: 300px;
+    margin: 20px 20px 0 20px;
+  }
+
+  #super_heroes {
+    height: auto;
+    margin: 20px 20px 20px 20px;
+  }
+
+  #super_heroes li {
+    height: 300px;
+    border-bottom: solid 1px lightgray;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #super_heroes li:nth-child(1) {
+    background-image: url('../finn.png');
+  }
+
+  #super_heroes li:nth-child(2) {
+    background-image: url('http://www.nerdlocker.com/wp-content/uploads/2013/10/AdventureTimeJakeTheDad_featured.jpg');
+  }
+
+  #super_heroes li:nth-child(3) {
+    background-image: url('http://fc05.deviantart.net/fs71/f/2013/213/9/9/rainbow_afro_bmo__gif__by_jauntyeyes-d6g8y33.jpg');
+  }
+}
